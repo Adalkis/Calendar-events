@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --transparent-black: rgb(41 41 41 / 54%);
+}
+html, body, #root{
+    height: 100%;
+}
+body {
+    /* padding: 10px 20px; */
+    /* font-family: sans-serif; */
+    font-family: 'Inter var';
+}
