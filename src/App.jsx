@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename={"/Calendar-events/"}>
+      <BrowserRouter>
       <EventListContext.Provider value={{events, setEvents}}>
         <Routes>
           <Route path="/" element={<AppLayout/>}>
